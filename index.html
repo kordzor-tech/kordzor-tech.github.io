@@ -1,0 +1,58 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Kordzor - Developer Tools for Safer Releases</title>
+  <meta name="description" content="Kordzor builds practical Unity editor tools that help developers ship safer updates.">
+  <meta property="og:title" content="Kordzor - Developer Tools for Safer Releases">
+  <meta property="og:description" content="Focused Unity editor tools for safer game updates.">
+  <meta property="og:image" content="https://kordzor-tech.github.io/assets/promo-banner.png">
+  <link rel="icon" href="assets/logo.png">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header class="nav">
+    <a class="brand" href="index.html"><img src="assets/logo.png" alt="Kordzor logo"><span>Kordzor</span></a>
+    <nav><a href="#product">Product</a><a href="#docs">Documentation</a><a href="support.html">Support</a></nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-copy">
+        <p class="eyebrow">UNITY EDITOR TOOLS</p>
+        <h1>Developer tools for safer releases.</h1>
+        <p class="lead">Kordzor builds focused tools that remove repetitive release checks and help small teams catch expensive mistakes earlier.</p>
+        <div class="actions"><a class="button" href="#product">View our product</a><a class="button secondary" href="support.html">Get support</a></div>
+      </div>
+      <img class="hero-mark" src="assets/logo.png" alt="">
+    </section>
+
+    <section id="product" class="section">
+      <p class="eyebrow">OUR FIRST TOOL</p>
+      <h2>Save Compatibility Tester</h2>
+      <p class="section-intro">Check whether historical player saves still load after your game changes - before you ship the update.</p>
+      <div class="feature-grid">
+        <article><h3>Versioned regression tests</h3><p>Run saves from every released version against your current loading and migration code.</p></article>
+        <article><h3>Actionable failures</h3><p>See the affected file, field, expected value, actual value, and a suggested fix.</p></article>
+        <article><h3>PlayerPrefs snapshots</h3><p>Capture and validate required PlayerPrefs keys, types, numeric ranges, and non-empty strings.</p></article>
+        <article><h3>Reports and CI</h3><p>Export HTML or JSON reports and fail automated release checks when compatibility breaks.</p></article>
+      </div>
+    </section>
+
+    <section id="docs" class="section panel">
+      <p class="eyebrow">QUICK START</p>
+      <h2>Install and run in minutes</h2>
+      <ol class="steps">
+        <li><span>1</span><div><strong>Import</strong><p>In Unity, open Assets &gt; Import Package &gt; Custom Package and import all files.</p></div></li>
+        <li><span>2</span><div><strong>Open</strong><p>Select Tools &gt; Save Compatibility Tester.</p></div></li>
+        <li><span>3</span><div><strong>Try the demo</strong><p>Choose Load Demo, then run the three compatibility tests. Two passes and one intentional failure are expected.</p></div></li>
+        <li><span>4</span><div><strong>Connect your game</strong><p>Create a PlayerPrefs profile or generate an adapter for your existing save loader.</p></div></li>
+      </ol>
+      <p class="note">Use anonymized fixtures only. Never store player names, emails, account tokens, credentials, or other personal information.</p>
+    </section>
+  </main>
+
+  <footer><span>© 2026 Kordzor</span><span><a href="support.html">Support</a><a href="privacy.html">Privacy</a><a href="https://github.com/kordzor-tech" rel="noopener">GitHub</a></span></footer>
+</body>
+</html>
